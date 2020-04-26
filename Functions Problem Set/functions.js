@@ -7,16 +7,16 @@
 
 //since num % 2 === 0 is a boolean statement , the code below is a shorter way to solve the problem
 
-function isEven(num){
-  return num % 2 === 0;
+function isEven(num) {
+	return num % 2 === 0;
 }
 
-function factorial(num){
-  var result = 1;
-  for(var i=2;i <= num;i++){
-    result *= i;  //same as result = result * i;
-  }
-  return result;
+function factorial(num) {
+	var result = 1;
+	for (var i = 2; i <= num; i++) {
+		result *= i; //same as result = result * i;
+	}
+	return result;
 }
 //we have to check for 0 with the solution below 
 // function factorial(num) {
@@ -45,6 +45,6 @@ function factorial(num){
 //refactoring of the first solution to remove redundant code
 
 function kebabToSnake(str) {
-  var res = str.replace(/-/g, "_");
-  return res;
+	var res = str.replace(/-/g, "_");
+	return res;
 }

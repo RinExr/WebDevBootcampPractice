@@ -1,7 +1,8 @@
 //var numArr = [1,2,3,4,5];
 
 function printReverse(arr){
-  // arr.forEach(function (arr){
+  // arr.forEach((arr) => {
+  // arr.map((arr) => {
   //   var i = 1;
   //   console.log(numArr.length-i);
   //   i++;
